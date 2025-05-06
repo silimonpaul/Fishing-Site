@@ -1,0 +1,73 @@
+.navbar {
+  padding: 1rem;
+  background: var(--primary-color);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: auto;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.navbar-brand::after {
+  content: 'Home Page 🎣';
+  position: absolute;
+  left: 2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-brand:hover span {
+  opacity: 0;
+}
+
+.navbar-brand:hover::after {
+  opacity: 1;
+}
+
+.navbar-brand:visited,
+.navbar-brand:hover,
+.navbar-brand:active,
+.navbar-brand:link {
+  color: white;
+}
+
+.navbar-cart {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+  margin-left: auto;
+  padding-right: 2rem;
+}
+
+.navbar-cart span {
+  order: 2;  /* Move the text after the emoji */
+}
+
+.navbar-cart .cart-emoji {
+  order: 1;  /* Move the emoji before the text */
+}
+
+.navbar-cart:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}

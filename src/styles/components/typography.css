@@ -1,0 +1,15 @@
+.page-title {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.product-price {
+  color: var(--accent-color);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-description {
+  color: #666;
+}

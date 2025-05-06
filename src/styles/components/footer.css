@@ -1,0 +1,22 @@
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 3rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: 10px solid #ccc;
+  border-radius: 20%;
+}
+
+.copyright {
+  margin-bottom: 0.5rem;
+}
+
+.powered-by {
+  font-size: 0.9rem;
+}
+
+.powered-by .highlight {
+  color: var(--accent-color);
+  font-weight: bold;
+}

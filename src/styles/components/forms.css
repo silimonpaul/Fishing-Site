@@ -1,0 +1,57 @@
+/* Form Containers */
+.form-container {
+  max-width: 800px;
+  margin: var(--spacing-large) auto;
+  padding: var(--spacing-medium);
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: var(--spacing-medium);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: var(--spacing-small);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Form Inputs */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: var(--spacing-small);
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Form Validation */
+.form-group input:invalid,
+.form-group textarea:invalid {
+  border-color: var(--danger-color);
+}
+
+/* Submit Button */
+.form-submit {
+  width: 100%;
+  margin-top: var(--spacing-large);
+  padding: var(--spacing-medium);
+  background-color: var(--success-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: all var(--transition-speed) var(--transition-ease);
+}
+
+.form-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}

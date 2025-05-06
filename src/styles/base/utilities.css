@@ -1,0 +1,13 @@
+/* Text Utilities */
+.text-center { text-align: center; }
+.text-bold { font-weight: bold; }
+
+/* Spacing Utilities */
+.mt-1 { margin-top: var(--spacing-small); }
+.mt-2 { margin-top: var(--spacing-medium); }
+.mt-3 { margin-top: var(--spacing-large); }
+
+/* Display Utilities */
+.d-flex { display: flex; }
+.d-grid { display: grid; }
+.d-none { display: none; }
